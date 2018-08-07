@@ -48,7 +48,7 @@ class Berita extends CI_Controller {
 						 'berita'	=> $berita,
 						 'read'		=> $read,
 						 'isi'		=> 'berita/read');
-		$this->load->view('layout/wrapper',$data); 
+		$this->load->view('template.php',$data); 
 	}
 }
 		

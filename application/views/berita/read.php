@@ -1,16 +1,16 @@
-	<!--about-->
-	<div class="about"> 
-		<div class="container">
-			<h3 class="title"><?php echo $title ?></h3>
-			<div class="about-text">
-				<div class="col-md-6 about-text-left">
-					<img src="<?php echo base_url('assets/upload/image/'.$read->gambar) ?>" class="img-responsive" alt="<?php echo $title ?>"/>
-				</div>
-				<div class="col-md-6 about-text-right">                    
-					<?php echo $read->keterangan ?>
 
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-</div>
+  <!-- Blog entry -->
+  <div class="w3-white" style="max-width: 1000px; margin: auto; margin-top: 35px">
+  	<div class="w3-margin w3-card-4 ">
+	    <img src="<?php echo base_url('assets/upload/image/'.$read->gambar) ?>" alt="Nature" style="width:100%">
+	    <div class="w3-container">
+	      <h3><b><?php echo $title ?></b></h3>
+	      <h5><i class="fa fa-calendar"></i> <span class="w3-opacity"><?php echo date('d M Y',strtotime($read->tanggal)) ?></span></h5>
+	    </div>
+	    <div class="w3-container">
+	      <p><?php echo $read->keterangan ?></p>
+	    </div>
+	    <br>
+	</div>
+  </div>
+  <hr>

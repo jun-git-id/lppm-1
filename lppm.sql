@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 01, 2018 at 10:49 AM
+-- Generation Time: Aug 01, 2018 at 12:40 PM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 5.6.36
 
@@ -355,7 +355,7 @@ ALTER TABLE `berita`
 -- AUTO_INCREMENT for table `hibah`
 --
 ALTER TABLE `hibah`
-  MODIFY `hibah_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `hibah_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `kategori_berita`
